@@ -10,4 +10,4 @@ def cleaner(file : str):
 
 
 if __name__ == "__main__":
-    cleaner("  cLeAnER.pY")
+    cleaner("  cLeAnER.file")
