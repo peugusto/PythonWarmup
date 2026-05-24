@@ -6,8 +6,10 @@ def func():
     
     daily = [("apple", 2),("water",4)]
 
-    for daily in storage:
-
+    for produto, qtd in daily:
+        if produto in storage:
+            price = storage[produto][price]
+            
 
 
 if __name__ == "__main__":
